@@ -1,0 +1,149 @@
+# CPF Quiz — Wrong Answers Bank
+# Wrap each wrong answer between ~ tildes ~
+# Answers can span multiple lines — open with ~ and close with ~
+# [TOPIC NAME] headers must match exactly:
+#   Accounts Management, Member Particulars, Account Closure,
+#   Digital Services, SSS, Trusted Contacts
+# Lines starting with # are ignored
+
+[Accounts Management]
+~Your CPF account is automatically created when you register on my cpf digital services for the first time.~
+~Your CPF account number is the 7-digit number found on your employment pass or work permit issued by MOM.~
+~CPF interest is computed annually and credited to your respective accounts at the end of each calendar year.~
+~Savings in the Ordinary Account earn interest based on the 6-month average of major local banks' interest rates, subject to a minimum of 2.5% per annum.~
+~The Government pays extra interest on the first $40,000 of your combined CPF balances, which is capped at $20,000 for the Ordinary Account.~
+~The Basic Healthcare Sum is the estimated savings you need in your MediSave Account to cover your basic subsidised healthcare expenses, and is adjusted every 5 years to keep pace with rising costs.~
+~Any savings in your MediSave Account above the Basic Healthcare Sum will be channelled to your CPF Ordinary Account regardless of your age.~
+~CPF interest is computed quarterly and credited to your respective accounts at the start of the following quarter.~
+~You can retrieve your CPF Yearly Statement of Account for the past 15 years via my cpf digital services.~
+~CPF contributions are payable from the day you obtain your Singapore Permanent Resident status, but only after completing a 3-month waiting period.~
+~In the first year of obtaining SPR status, you and your employer will contribute at the same full CPF contribution rates as Singapore Citizens.~
+~The Special, MediSave and Retirement Account floor rate is currently maintained at 3.5% per annum.~
+~Extra interest is structured so that savings in your Special, MediSave or Retirement Account earn extra interest first, followed by the Ordinary Account.~
+~The Basic Healthcare Sum is fixed for life at the amount applicable when you turn 55 years old.~
+~If I have saved the Basic Healthcare Sum in my MediSave Account, any excess savings will be moved to my Special Account if I am below age 55, or to my Ordinary Account if I am aged 55 and above.~
+~Your employer must pay your CPF contributions for each month's wages by the 7th of the following month.~
+~To make a top-up to your MediSave Account, you must visit a CPF Service Centre with your PayNow details.~
+~Government cash grants and CPF-administered benefits are shown directly in your CPF Yearly Statement of Account under the Benefits section.~
+~You may appoint a donee or deputy to access your CPF Yearly Statement on your behalf by submitting a written request to CPF Board.~
+~Your CPF Yearly Statement of Account is automatically emailed to your registered email address each February.~
+~The CPF interest rate for the Ordinary Account is reviewed annually and announced together with the national budget.~
+~You can make a top-up to your CPF accounts using PayNow QR only if the recipient has a PayNow-NRIC-linked bank account.~
+~CPF statements beyond 15 months can only be retrieved by visiting a CPF Service Centre in person with your NRIC.~
+~Monthly CPF transaction notifications are sent only to members who opt in through my cpf digital services settings.~
+~The minimum interest rate of 2.5% per annum for the Ordinary Account is guaranteed permanently by legislation with no scheduled review.~
+
+[Member Particulars]
+~For Singapore Citizens and Permanent Residents, you must inform CPF Board separately within 30 days whenever your particulars are updated with ICA.~
+~CPF Board uses the alias name or Hanyu Pinyin name registered in your NRIC to transact with you.~
+~If you update your mobile number or email address with Singpass, your CPF Board contact details will be automatically updated within 3 working days.~
+~Changes to your registered bank account details take up to 7 working days to take effect after submission.~
+~You must register your contact details with CPF Board before you can view your child's CPF transaction history online.~
+~Your child's CPF Transaction History can be viewed online for the past 24 months if both you and your child are Singapore Citizens or Permanent Residents.~
+~If you are granted sole custody of your child following a divorce, CPF Board will automatically remove your ex-spouse's access to the child's CPF statement.~
+~You can make changes to your contact details at any time without any cooling period or waiting period.~
+~Contact details shared between family members will be de-registered automatically after 6 months for security purposes.~
+~You need to update your bank account details separately with CPF Board even if the bank account number remains unchanged after a bank merger.~
+~Notifications are sent to you via post whenever there are updates to your registered bank account.~
+~To update your personal particulars as a Singapore Citizen or Permanent Resident, you must visit a CPF Service Centre with your original NRIC.~
+~If you receive a CPF notification that was not meant for you, you should ignore it as it is likely a phishing attempt.~
+~You can view your child's CPF Healthcare Payments and Claims statement for the last 24 months online.~
+~Service standard for updating personal particulars for Singapore Citizens and Permanent Residents is 5 working days.~
+
+[Account Closure]
+~Non-Singapore Citizens and non-Permanent Residents had their CPF accounts automatically closed in April 2023.~
+~Once your CPF account is closed, any remaining savings will continue to earn interest at the prevailing CPF rates for up to 12 months.~
+~If you renounce your Singapore Citizenship, your Dependants' Protection Scheme coverage will cease 30 days after the date of renunciation.~
+~When you renounce your Singapore Citizenship, your Home Protection Scheme cover will cease immediately on the date of renunciation.~
+~Online CPF account closure applications are available to all non-Singapore Citizens and non-Permanent Residents regardless of nationality.~
+~CPF savings will be paid out in full within 2 weeks from the point of submitting an online account closure application.~
+~If you have an outstanding CPF education loan when your account is closed, your remaining CPF savings will be withheld until the loan is fully repaid.~
+~Any monies received through CPF transfers and cash top-ups will be forfeited and cannot be withdrawn upon account closure after renunciation.~
+~Your CPF LIFE plan will be paused upon renunciation and can be reactivated if you reinstate your citizenship within 2 years.~
+~If you reinstate your Singapore Citizenship, you are not required to refund your previously withdrawn CPF savings.~
+~You can choose to receive your CPF savings in instalments over 6 months when your account is closed after renunciation.~
+~Non-Singapore Citizens residing overseas must submit their account closure forms through a Singapore Overseas Mission only if they are Malaysian.~
+~If a non-Singapore Citizen passes away before closing their account, all CPF savings will be transferred directly to their estate without any distribution to nominees.~
+~For all non-Singapore Citizens and non-Permanent Residents, account closure applications take 3 months to process regardless of submission method.~
+~After reinstating your Singapore Citizenship, you must refund your CPF savings within 6 months or face a penalty of 5% interest.~
+~Your MediShield Life cover will automatically continue without any action required if you renounce your Singapore Citizenship.~
+~CareShield Life premiums in arrears cannot be recovered from CPF savings upon account closure and must be paid separately.~
+~If you have not received your cheque or Cashier's Order within one month from the point of form submission, you should notify CPF Board.~
+~Investments held under the CPF Investment Scheme will be liquidated automatically at market value within 7 days of account closure.~
+~Non-Singapore Citizens working in Singapore on an Employment Pass are exempt from the mandatory CPF account closure requirement.~
+
+[Digital Services]
+~CPF Mobile is available for download only from the Google Play Store as it is not supported on Apple iOS devices.~
+~Singpass Face Verification must be set up manually by visiting a Singpass counter before it can be used for CPF transactions.~
+~Singpass is an abbreviation for Singapore Private Access and is your common password to transact with the Government online.~
+~To reset your Singpass password, you must call the Singpass Helpdesk as it cannot be done online.~
+~CPF Board operates its own Two-Factor Authentication system separate from Singpass 2FA for higher-risk transactions.~
+~Service Centre appointments can be booked up to 4 weeks in advance to allow sufficient planning time for members.~
+~CPF digital services can only be accessed on weekdays between 7am and 11pm for security maintenance purposes.~
+~FIN holders cannot access CPF digital services online and must visit a Service Centre in person.~
+~Singpass Face Verification requires you to first register your face via the Singpass app before it can be triggered.~
+~To log in to CPF Mobile using the Singpass QR code, you must be on a WiFi connection as mobile data is not supported.~
+~Foreign CPF members can continue to access CPF digital services using the OneKey Token as an alternative to Singpass.~
+~CPF Mobile push notifications will only be sent to members who have a Retirement Account set up.~
+~If you have difficulty logging in to your cpf digital services, you should call the CPF hotline as clearing your browser cache will not resolve login issues.~
+~The CPF website cpf.gov.sg is maintained by GovTech on behalf of CPF Board.~
+~Singpass is administered by the Ministry of Digital Development and Information.~
+~CPF Service Centres handle all CPF matters including employer and self-employed matters by appointment.~
+~You can check or cancel your CPF Service Centre appointment only by calling the CPF hotline.~
+~Singpass 2FA is triggered for all CPF transactions regardless of the transaction amount or risk level.~
+~You must download CPF Mobile from the official CPF website as it is not available on any app store.~
+~Service Centre booking slots are released daily at midnight on a rolling 2-week basis.~
+
+[SSS]
+~You need to submit an online application through the CPF website each year to continue receiving your Silver Support payments.~
+~Pioneer and Merdeka Generation members automatically qualify for the Silver Support Scheme as part of the national recognition package.~
+~Silver Support eligibility is assessed every 2 years and a letter will be sent to inform you of any changes in eligibility.~
+~Silver Support payments are made on the last day of each quarter, in March, June, September and December.~
+~The eligibility criterion for total CPF contributions is set at $120,000 to be eligible for the Silver Support Scheme.~
+~The threshold for household monthly income per person is set at $1,800 to be eligible for the Silver Support Scheme.~
+~Silver Support assessments use the senior's total CPF contributions by the age of 60 as a reflection of their lifetime wages.~
+~ComCare Long Term Assistance recipients aged 65 and above will automatically receive a flat amount of $360 per quarter from the Silver Support Scheme.~
+~Silver Support payments are credited to your CPF Medisave Account to encourage use for healthcare expenses.~
+~The Silver Support Scheme is jointly administered by CPF Board and the Ministry of Social and Family Development.~
+~Your housing type for Silver Support assessment is based on your most recent residential address as registered with Singpass.~
+~Seniors who own a 4-room or larger HDB flat, private property or multiple properties are not eligible for Silver Support.~
+~Seniors living in nursing homes or residential care facilities are assessed separately and are not eligible for the Silver Support Scheme.~
+~Silver Support payments are disbursed via GovCash by default unless you register for PayNow-NRIC.~
+~Net trade income for self-employed persons is your gross trade income after deducting mandatory CPF contributions and MediSave contributions.~
+~Household monthly income per person is calculated by dividing the total gross household monthly income by the number of working adults in the household.~
+~You can request to find out your total CPF contributions used for Silver Support assessment at any time after the age of 55.~
+~Silver Support payments that go unclaimed for more than 12 months will be forfeited and returned to the Government.~
+~If a Silver Support beneficiary passes away, any remaining GovCash balance will be distributed to their nominees as part of their CPF monies.~
+~To withdraw GovCash on behalf of a physically incapacitated beneficiary, you must be their next-of-kin and aged 18 and above.~
+~GovCash can be used to make purchases at all NETS-enabled merchants islandwide using the LifeSG app.~
+~The Payment Reference Number alone is sufficient to withdraw GovCash at any OCBC ATM.~
+~Silver Support payments can be received on a monthly basis upon request through the CPF digital services portal.~
+~Only Singapore Citizens aged 65 and above who live in HDB flats of 4 rooms or smaller are eligible for Silver Support.~
+~Self-employed persons are assessed for Silver Support based on their net trade income over the last 10 years of work.~
+
+[Trusted Contacts]
+~A Trusted Contact can log in to your CPF account using their own Singpass to view your account balance and recent transactions.~
+~You may appoint up to three individuals as your Trusted Contacts, with one designated as the primary contact.~
+~Trusted Contact appointments expire automatically after 3 years and must be renewed to remain active.~
+~Your Trusted Contact can submit appeals or write-in requests to CPF Board on your behalf using their own Singpass.~
+~A Trusted Contact can be held legally accountable if they fail to report suspicious transactions on your CPF account.~
+~You must be aged 55 and above to appoint a Trusted Contact as the service is designed to protect seniors from scams.~
+~Your appointee has 14 days to accept your Trusted Contact appointment request before it expires.~
+~CPF Board will notify your Trusted Contact about all transactions made on your CPF account including routine contributions.~
+~A Trusted Contact must be a Singapore Citizen and cannot be a Permanent Resident.~
+~The Trusted Contact notification service is the same as a CPF nomination and determines how your savings are distributed upon your passing.~
+~A Trusted Contact can update your bank account details or contact information with CPF Board on your behalf in an emergency.~
+~You can appoint a person who is not a CPF member as your Trusted Contact as long as they have a valid Singapore mobile number.~
+~If your appointed Trusted Contact loses their mental capacity, their Trusted Contact appointment will be automatically terminated by CPF Board.~
+~A Court-appointed Deputy has the same authority as a Trusted Contact and can monitor your CPF transactions on your behalf.~
+~The Lasting Power of Attorney Donee and the Trusted Contact perform the same role in monitoring CPF account activity.~
+~To appoint a Trusted Contact, both you and your appointee must visit a CPF Service Centre together with your NRICs.~
+~CPF Board charges an administrative fee whenever you update or change your Trusted Contact appointment.~
+~If a member passes away, their Trusted Contact appointment remains active for 6 months to assist with estate matters.~
+~You can submit a Trusted Contact appointment without logging in to Singpass by using the CPF e-form with your NRIC.~
+~Trusted Contacts receive a detailed monthly summary of all CPF transactions made on your account via email.~
+~You cannot appoint a Trusted Contact who already serves as a Trusted Contact for more than one other person.~
+~If your Trusted Contact declines your appointment request, CPF Board will automatically suggest an alternative trusted individual.~
+~SMS notifications to Trusted Contacts begin with the label "(From CPF Board)" to distinguish them from other messages.~
+~A Trusted Contact must update their own CPF contact details every 12 months to maintain their appointment status.~
+~Removal of a Trusted Contact appointment takes up to 3 working days to take effect after successful submission.~
