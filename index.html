@@ -248,6 +248,62 @@ input[type=range]::-webkit-slider-thumb {
 .timer-circle.warn .timer-inner { color: var(--warn); }
 .timer-circle.danger .timer-inner { color: var(--wrong); }
 
+.exit-btn {
+  background: none;
+  border: 1.5px solid var(--border2);
+  border-radius: 8px;
+  color: var(--muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.exit-btn:hover { border-color: var(--wrong); color: var(--wrong); background: var(--wrong-bg); }
+
+/* Confirm overlay */
+.exit-overlay {
+  display: none;
+  position: fixed; inset: 0; z-index: 999;
+  background: rgba(0,0,0,0.6);
+  align-items: center; justify-content: center;
+  padding: 20px;
+}
+.exit-overlay.show { display: flex; }
+.exit-modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  max-width: 320px; width: 100%;
+  text-align: center;
+  animation: fadeUp 0.2s ease;
+}
+.exit-modal h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px; color: var(--text);
+  margin-bottom: 8px;
+}
+.exit-modal p { font-size: 13px; color: var(--muted); margin-bottom: 22px; line-height: 1.6; }
+.exit-modal-btns { display: flex; gap: 10px; justify-content: center; }
+.exit-confirm {
+  padding: 10px 22px; background: var(--wrong);
+  color: #fff; border: none; border-radius: 8px;
+  font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600;
+  cursor: pointer; transition: all 0.15s;
+}
+.exit-confirm:hover { filter: brightness(1.1); }
+.exit-cancel {
+  padding: 10px 22px; background: var(--surface2);
+  color: var(--text); border: 1.5px solid var(--border2);
+  border-radius: 8px; font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s;
+}
+.exit-cancel:hover { border-color: var(--green); }
+
 .score-chip {
   background: var(--surface2); border: 1px solid var(--border2);
   border-radius: 20px; padding: 6px 12px;
@@ -708,6 +764,7 @@ input[type=range]::-webkit-slider-thumb {
         </div>
       </div>
       <div class="score-chip" id="score-chip">0 pts</div>
+      <button class="exit-btn" onclick="showExitConfirm()">✕ Exit</button>
     </div>
     <div id="q-area"></div>
   </div>
@@ -1296,8 +1353,36 @@ function showResults(){
     </div>`).join('');
 }
 
+// ═══ EXIT QUIZ ═══
+function showExitConfirm() {
+  clearInterval(timerInt);
+  document.getElementById('exit-overlay').classList.add('show');
+}
+function hideExitConfirm() {
+  document.getElementById('exit-overlay').classList.remove('show');
+  // Resume timer if question not yet answered
+  if (!answered && timerSecs > 0 && timeLeft > 0) startTimer(timeLeft);
+}
+function confirmExit() {
+  document.getElementById('exit-overlay').classList.remove('show');
+  clearInterval(timerInt);
+  showScreen('s-setup');
+}
+
 // Auto-load on page start
 window.addEventListener('DOMContentLoaded', autoLoadWrongAnswers);
 </script>
+
+<!-- Exit confirmation modal -->
+<div class="exit-overlay" id="exit-overlay">
+  <div class="exit-modal">
+    <h3>Quit Quiz?</h3>
+    <p>Your current progress will be lost.<br>You'll return to the settings screen.</p>
+    <div class="exit-modal-btns">
+      <button class="exit-cancel" onclick="hideExitConfirm()">Keep Going</button>
+      <button class="exit-confirm" onclick="confirmExit()">Quit</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
