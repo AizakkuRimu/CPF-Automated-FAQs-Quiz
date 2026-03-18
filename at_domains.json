@@ -1,0 +1,17 @@
+[
+  {"emoji":"🔀","name":"Shuffle Curse",    "desc":"Cards reshuffle position every 15s — stay sharp!",              "effect":"shuffle_interval","val":15},
+  {"emoji":"🔥","name":"Burning Cards",    "desc":"Wrong unscramble = YOU take 1 Burn stack — stay sharp!",        "effect":"us_wrong_burn_player"},
+  {"emoji":"❄️","name":"Frozen Grid",      "desc":"Match timer runs 25% faster this round.",                       "effect":"timer_fast","val":1.25},
+  {"emoji":"⚡","name":"Shock Protocol",   "desc":"Correct unscramble shocks alien for extra 10% HP.",             "effect":"us_correct_shock"},
+  {"emoji":"🛡️","name":"Barrier Field",    "desc":"Your next wrong unscramble is blocked — no damage once.",       "effect":"block_once"},
+  {"emoji":"☠️","name":"Poison Cloud",     "desc":"Each wrong flip poisons you for 3% max HP.",                   "effect":"flip_wrong_poison","val":3},
+  {"emoji":"💚","name":"Vital Surge",      "desc":"Correct unscramble heals you for 8% max HP.",                   "effect":"us_correct_heal","val":8},
+  {"emoji":"👁️","name":"Alien Sight",      "desc":"Alien attacks for 10% extra damage this round.",                "effect":"dmg_amp","val":10},
+  {"emoji":"⏱","name":"Time Pressure",    "desc":"Match timer is 40s instead of 60s.",                            "effect":"timer_short","val":40},
+  {"emoji":"💥","name":"Critical Wave",    "desc":"Correct unscramble has 30% chance to deal double damage.",      "effect":"crit_chance","val":30},
+  {"emoji":"🎯","name":"Precision Lock",   "desc":"Wrong unscramble deals 15% max HP to you instead of 10%.",     "effect":"wrong_penalty","val":15},
+  {"emoji":"🌀","name":"Mirror Field",     "desc":"Wrong unscramble heals alien by 5% HP — don't mess up!",       "effect":"mirror_wrong"},
+  {"emoji":"⚗️","name":"Amplifier",        "desc":"Correct unscramble damage is doubled this round.",              "effect":"dmg_double"},
+  {"emoji":"🧲","name":"Gravity Pull",     "desc":"Successfully match a pair → instant +5 seconds.",              "effect":"match_time_bonus","val":5},
+  {"emoji":"🌩","name":"Storm Protocol",   "desc":"Correct unscramble shocks alien; wrong unscramble shocks YOU.", "effect":"always_lightning"}
+]
